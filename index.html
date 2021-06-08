@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body {
+                background-color: white;
+            }
+            .leftlist  {
+                float: left;
+                background-color: white;
+                list-style-type: none;
+                margin-top: -100px;
+                padding: 15px;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .rightlist {
+                float: right;
+                background-color: white;
+                list-style-type: none;
+                margin-top: -100px;
+                padding: 15px;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            li  {
+                display: inline;
+            }
+            .logo    {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 272px;
+                height: 92px;
+                object-position: center bottom;
+                object-fit: contain;
+                padding: 10px;
+                margin-top: 100px;
+                margin-bottom: 15px;
+            }
+            .navbarbot {
+                background-color: #dadce0;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                padding-top: 10px; 
+                padding-bottom: 10px; 
+                display: inline;
+            }
+            .searchbar  {
+                margin-left: auto;
+                margin-right: auto;
+                width: 527px;
+                height: 34px;
+                text-align: center;
+                display: block;
+                border-radius: 19px;
+                border-width: thin;
+            } 
+            .searchbar:hover    {
+                box-shadow: 3px 3px grey;
+            }
+            .buttons {
+                text-align: center;
+                margin-top: 20px;
+                border: none;
+            }
+            .button1 {
+                background-color: #f8f9fa;
+            }
+            .button2 {
+                background-color: #f8f9fa;
+            }
+            a {
+                padding-right: 10px;
+                text-decoration: none; 
+                color: #70757a;
+            }
+            .navbarbotright {
+                float: right;
+            }
+         
+           
+           
+        </style>
+        <title>
+            Google
+        </title>
+    </head>
+    <body>
+        <ul class="leftlist">
+            <li>Über Google</li>
+            <li>Store</li>
+        </ul>
+        <ul class="rightlist">
+            <li>Gmail</li>
+            <li>Bilder</li>
+        </ul>
+        <img  src="googlelogo.png" alt="googlelogo" class="logo">
+        <input class="searchbar">
+        <div class="buttons">
+            <button class="button1">Google Suche</button>
+            <button class="button2">Auf gut Glück!</button>
+        </div>    
+    </body>
+    <div class="navbarbot">
+        <a href="#adverts">Werbeprogramme</a>
+        <a href="#enterprises">Unternehmen</a>
+        <a href="howdoesgooglework">Wie funktioniert die Google Suche?</a>
+        <div class="navbarbotright ">
+            <a href="dsgvo">Datenschutzerklärung</a>
+            <a href="terms">Nutzungsbestimmungen</a>
+            <a href="settings">Einstellungen</a>
+        </div>
+    </div>
+</html>
